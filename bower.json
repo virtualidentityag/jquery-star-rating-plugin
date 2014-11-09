@@ -13,7 +13,7 @@
   ],
   "dependencies" : {
     "jquery" : "1.9.1"
-  }
+  },
   "license": "MIT",
   "homepage": "http://www.fyneworks.com/jquery/star-rating/",
   "ignore": [
