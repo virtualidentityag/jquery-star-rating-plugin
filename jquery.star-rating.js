@@ -323,9 +323,9 @@
 			control.readOnly = toggle || toggle === undefined ? true : false;
 			// enable/disable control value submission
 			if (disable) {
-				$(control.inputs).attr("disabled", "disabled");
+				$(control.inputs).prop('disabled', true);
 			} else {
-				$(control.inputs).removeAttr("disabled");
+				$(control.inputs).prop('disabled', false);
 			}
 			// Update rating control state
 			this.data('rating', control);

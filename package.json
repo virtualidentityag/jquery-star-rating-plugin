@@ -5,6 +5,7 @@
   "main": "jquery.rating.js",
   "scripts": {
     "release": "np --no-yarn",
+    "prepublishOnly": "npm run build",
     "build": "uglifyjs jquery.star-rating.js -o jquery.star-rating.min.js --source-map"
   },
   "repository": {
